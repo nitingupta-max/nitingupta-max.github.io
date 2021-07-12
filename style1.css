@@ -451,11 +451,16 @@ section .container-3{
         border-radius: 25px;
         margin: 11px auto;
     }
-    
-    
-
-     
-
-     
-
+    section .container-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
+        padding: 10px;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        grid-gap: 30px;
+        /* background: rgb(12, 11, 11); */
+        background-color: bisque;
+        clip-path: polygon(0 0,50% 9%, 100% 0, 100% 100%,50% 91%,0 100%);
+    }
  }
