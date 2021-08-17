@@ -142,7 +142,7 @@ section.about h1{
 section.about h3{
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom:1rem ;
+    margin-bottom:-2rem ;
 
 }
 section.about p{
@@ -159,6 +159,11 @@ section.about a .i:hover{
 #container-2{
     height: 500px;
     background: lightblue;
+}
+.intro{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
 }
 
 section .container-2{
@@ -463,4 +468,10 @@ section .container-3{
         background-color: bisque;
         clip-path: polygon(0 0,50% 9%, 100% 0, 100% 100%,50% 91%,0 100%);
     }
+    
+
+     
+
+     
+
  }
