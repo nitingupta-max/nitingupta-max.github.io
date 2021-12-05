@@ -1,51 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Information</title>
-  </head>
-  <body>
-    <div class="header">
-      <nav>
-        <img class="logo" src="logo.png" />
-        <ul>
-          <li><a href="" target="blank">Home</a></li>
-          <li>
-            <a
-              href="https://github.com/nitingupta-max?tab=repositories"
-              target="blank"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/nitingupta-max" target="blank"
-              >Github</a
-            >
-          </li>
-          <li><a href="" target="blank">Contact Me</a></li>
-        </ul>
-        <img src="menu.jpeg" alt="hello" class="menu" />
-      </nav>
-      <div class="text">
-        <h1>I'm <span class="auto"></span></h1>
-        <p>
-        I am Currently a Second Year Student at Indian Institute of Information Technology, Bhopal.<br>Pursuing B.Tech Degree in Computer Science & Engineering.
-        </p>
-        <a href="" target="blank">Contact Me</a>
-      </div>
-      <img src="nitin.png" alt="nitin" class="user" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+
+<body>
+    <div class="site-main-wrapper">
+        <!-- <button class="hamberger">
+            <img class="ham" src="menu_lines_hamburger_-512.png" alt="">
+        </button>
+        <div class="mobile">
+            <button class="times"><img class="ham"src="times.png" alt=""></button>
+            <ul>
+                <li><a href="" alt="">Home</a></li>
+                <li><a href="" alt="">My Skills</a></li>
+                <li><a href="" alt="">About</a></li>
+                <li><a href="" alt="">My Learning</a></li>
+                <li><a href="" alt="">Hobbies</a></li>
+            </ul>
+        </div> -->
+        <header>
+            <div class="container">
+                <nav id="main-nav" class=" flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img class="logo" src="nik logo.png" alt="1">
+                        </div>
+                        <div class="task">
+                            <a href="#">Home</a>
+                            <a href="#about_me">About</a>
+                            <a href="#skills">My Skills</a>
+                            <a href="#my">My Learnings</a>
+                            <a href="#hobbies">Hobbies</a>
+
+                        </div>
+                    </div>
+                    <div class="right" id="task">
+                        <button class="btn btn-primary" href="#contact">Contact</button>
+                    </div>
+                </nav>
+                <div class="photo flex items-center justify-between">
+                    <div class="pleft  justify-center">
+                        <img class="ng" src="niknew.jpg" alt="">
+                    </div>
+
+                    <div class="pright ">
+
+                        <h3>Hello<br>I'm <span>Nitin Gupta</span></h3>
+
+                        <div>
+                            <a href="https://docs.google.com/document/d/1x7GZI8YVeZv4arMs-jVTgJlkOOOhNaItra2ILRvrKzg/edit" target="_blank"><button class="btn btn-secondary">Download CV</button></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <section id="about_me" class="about ">
+            <div class="container flex items-center about-inner-wrap" id="container-2">
+                <div class="aleft flex">
+                    <!-- <img class="about-me"
+                        src="https://scontent.fagr2-1.fna.fbcdn.net/v/t1.6435-9/108138567_308126816994247_2917807599397272133_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=174925&_nc_ohc=gmu0J7s1ASoAX_epHJJ&_nc_oc=AQmU-vZD-sdebzwhDkSpO_YuWXkr--Z9oYki-2xid0ynrkGeAGciZ1-odOq3_U3Gmfa0auh-mOt1E8FwdXYYsf0G&_nc_ht=scontent.fagr2-1.fna&oh=d31e3caeedeca4527ad95012a6f5b435&oe=60EFC275"
+                        alt=""> -->
+
+                </div>
+                <div class="aright">
+                    <h1>About <span>Me</span></h1>
+                    <h3 class="h">Hello I'm Nitin Gupta</h3>
+                    <p class="intro">
+                        and I am Currently a Second Year Student at Indian Institute of Information Technology,
+                        Bhopal.Pursuing B.Tech Degree in Information Technology
+
+                    </p>
+                    <div class="social">
+
+                        <a href="https://www.facebook.com/profile.php?id=100033907940440" target="_blank"><img class="i"
+                                src="https://image.flaticon.com/icons/png/512/61/61045.png" alt="2"></a>
+                        <a href="https://twitter.com/home?lang=en" target="_blank"><img class="i"
+                                src="https://www.unhcr.org/eg/wp-content/uploads/sites/36/2017/04/twitter-logo-512x504.png"
+                                alt="3"></a>
+                        <a href="https://www.linkedin.com/in/nitin-gupta-b915a81ba" target="_blank"><img class="i"
+                                src="https://img.icons8.com/ios/500/linkedin.png" alt="3"></a>
+                        <a href="#" target="_blank"><img class="i"
+                                src="https://1000logos.net/wp-content/uploads/2017/02/insta-logo.png" alt="5"></a>
+                        <a href="https://github.com/nitingupta-max"><img class="i"
+                                src="https://cdn.icon-icons.com/icons2/2368/PNG/512/github_logo_icon_143772.png"
+                                target="_blank"></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <h1 class="ms"> My Skills</h1>
+            <div class="container-2">
+
+                <div class="item1">
+
+                    <img class="is" src="cprogramming.png" alt="">
+                    <h4>C Programming</h4>
+                </div>
+                <div class="item1">
+                    <img class="is"
+                        src="https://res.cloudinary.com/practicaldev/image/fetch/s--Tu2z9cvG--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://miro.medium.com/max/696/1%2A6UpwEDOw04H5fKyaMGXpSw.png"
+                        alt="">
+                    <h4>C++</h4>
+                </div>
+                <div class="item1">
+                    <img class="is" src="html.png" alt="">
+                    <h4>HTML, CSS,JS</h4>
+                </div>
+                <div class="item1">
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAh-9gMxGPRbIN2tOoplmQcX3QJrEZ4LoHAQ&usqp=CAU"
+                        alt="">
+                    <h4> DSA</h4>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section id="my" class="My Learnings">
+            <h1 class="ms"> Currently I am Learning</h1>
+            <div class="container-2">
+
+                <div class="item1">
+
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTm2MRvUmrliLIcxJKqfnXoCZ-D3I3pYVCQ&usqp=CAU"
+                        alt="">
+                    <h5>git & github</h5>
+                </div>
+
+
+                <div class="item1">
+                    <img class="is"
+                        src="android.png"
+                        alt="">
+                    <h5>Android Development</h5>
+                </div>
+
+
+                <div class="item1">
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW-yB3bCG4Ftv6CM_yl_e6nj_e8Mth2zsOxA&usqp=CAU"
+                        alt="">
+                    <h5>Python</h5>
+                </div>
+
+
+                <div class="item1">
+                    <img class="is"
+                        src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRefmrIaYlqt5axdKDHaK4jBPH84qnEtCZZ3C9No4xUim-7tV4N5z8U3BtRGi_h7JG5Ksk&usqp=CAU
+                        alt="">
+                    <h5> Stats.</h5>
+
+
+
+                </div>
+            </div>
+        </section>
+        <section id="hobbies" class="hobbies">
+            <h1 class="ms"> My Hobbies</h1>
+            <div class="container-3">
+
+                <div class="item2">
+
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy-jHfYxV5iySMRVUjA-MFXJASFeDu0T95Iw&usqp=CAU"
+                        alt="">
+                    <h4>Cricket</h4>
+                </div>
+
+
+                <div class="item2">
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEfRovzm7v0QL4nzsTt55ueGmXOUsjJoQecg&usqp=CAU"
+                        alt="">
+                    <h4>Reading</h4>
+                </div>
+
+
+                <div class="item2">
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScw47sAFSezUVE9sftiVI8RrfK12dmvYAdMg&usqp=CAU"
+                        alt="">
+                    <h4>Cycling</h4>
+                </div>
+                <div class="item2">
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLGYoYzRJ7g_dw63AfAk-pfLEYQZsKfMzfkg&usqp=CAU"
+                        alt="">
+                    <h4>Watching Movies</h4>
+                </div>
+                <div class="item2">
+                    <img class="is"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqywD3lyP_R6r32Mw20gF6suFLFr_zqmZmQ&usqp=CAU"
+                        alt="">
+                    <h4>Travelling</h4>
+                </div>
+            </div>
+        </section>
+        <form id="contact">
+            <h1>Contact Me.<br>
+                <h3>Email : masternitin1234@gmailcom</h3>
+            </h1>
+
+            <div class="container">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Enter Your Contact Number">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="" placeholder="Enter Your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Message">
+                </div>
+                <div>
+                    <input type="button" class="btn-1" value="Send">
+                </div>
+            </div>
+
+        </form>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      var typed = new Typed(".auto", {
-        strings: ["Nitin Gupta", "Web Developer", "UI Designer"],
-        typeSpeed: 100,
-        backSpeed: 100,
-        loop: true,
-      });
-    </script>
-  </body>
+
+
+
+</body>
+
 </html>
