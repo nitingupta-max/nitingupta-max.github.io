@@ -13,9 +13,6 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box ;
-    
-    
-   
 }
 body{
     font-family: "Baloo Bhai 2";
@@ -33,7 +30,6 @@ header nav .left  a{
     padding: 10px;
     text-transform: uppercase;
     transition: all 0.3s ease;
-    
     font-size: 20px;
 
 }
@@ -44,21 +40,47 @@ header nav .right{
     font-size: 20px;
 }
 .task{
-    padding-top: 40px;
+    padding-left: 35rem ;
+    margin: 35px auto;
+    width: 100%;
 }
-#task{
-    padding-top: 25px;
-   
+footer{
+    margin-top: 160px;
+    background: #898989;
+    width: 100%;
+    height: 230px;
+    
 }
+.last{
+    display: flex;
+}
+footer .last .connect img{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+footer .last .college img{
+    height: 20px;
+    width: 20px;
+
+}
+.connect{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.college{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
 .logo{
     padding-top:10px ;
     padding-bottom:10px ;
     height: 100px;
     width: 100px;
 }
-/* header nav #branding{
-    padding: 3rem ;
-} */
+
 header nav .left a:hover
 {
     color: var(--primary);
@@ -69,7 +91,7 @@ header nav .left a:hover
     padding: 0 15px;
     margin: 0 auto;
 }
-/* @media (min-width:) */
+
 .photo .pleft img{
     
     width: 450px;
@@ -89,7 +111,6 @@ header nav .left a:hover
     width: 120px;
     filter: invert(96%);
   }
-
 .photo .pright h3{
     margin-top: 50px;
     font-size: 4rem;
@@ -106,13 +127,10 @@ header nav .left a:hover
 }
 section{
     padding-top:4rem;
-    
-
 }
 .i{
     height: 50px;
     width: 50px;
-    /* filter: invert(90%); */
     border:2px black solid;
     border-radius: 8px;
 }
@@ -124,8 +142,6 @@ section{
     border-radius: 50%;
     height: 500px;
     width: 500px;
-    /* filter: invert(-50%); */
-
 }
 .about-me{
     padding-right: 150px;
@@ -210,7 +226,6 @@ form{
     padding-bottom: 200px;
 }
 .form-group input{
-    /* font-family: cursive; */
     font-size: 18px;
     text-align: center;
     display: block;
@@ -258,59 +273,7 @@ section .container-3{
     
 
 }
-/* @media (max-width:910px)
-{
-    header #main-nav{
-        display: none;
-    }
-} */
-/* .site-main-wrapper{
-    position: relative;
-}
-.hamberger{
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    z-index: 11;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    
-}
-.ham{
-    height: 50px;
-    width: 50px;
-    filter: invert(100%);
-    border: none;
-}
-.mobile{
-    position: fixed;
-    top:0;
-    left: 0;
-    z-index: 1001;
-    background: var(--light);
-    width: 100%;
-    height: 100%;
-    padding: 2rem  ;
-    padding-top: 5rem;
-}
-.times{
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: none;
-}
-.mobile ul{
-    list-style-type: none;
-}
-.mobile ul li a{
-    color: var(--secondary);
-    text-decoration: none;
-    font-size: 30px;
-} */
+
  @media (max-width:1024px){
      /* header #main-nav{
          display: none;
@@ -469,10 +432,4 @@ section .container-3{
         background-color: bisque;
         clip-path: polygon(0 0,50% 9%, 100% 0, 100% 100%,50% 91%,0 100%);
     }
-    
-
-     
-
-     
-
  }
