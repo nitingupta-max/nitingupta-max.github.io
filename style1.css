@@ -163,7 +163,7 @@ form h1,h3{
  @media (max-width:620px){
      
  }
- @media (max-width:492px){
+ @media (max-width:420px){
      .last{
          display: block;
      }

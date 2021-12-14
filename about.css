@@ -117,7 +117,7 @@ h1{
 .dsa{
     width: 45%;
 }
-@media (max-width:380px){
+@media (max-width:420px){
     .skills{
         display: block;
         width: 100%;

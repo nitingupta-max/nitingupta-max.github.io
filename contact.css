@@ -43,7 +43,7 @@ button:hover{
 head{
     background: var(--dark);
 }
-@media (max-width:492px){
+@media (max-width:420px){
     .link{
         width: 82%;
     }
