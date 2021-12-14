@@ -1,77 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="stylesheet" href="style1.css">
-</head>
-<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
-
-<body>
-    <div class="site-main-wrapper">
-        <header>
-            <div class="container">
-                <nav id="main-nav" class=" flex items-center justify-between">
-                    <div class="left flex items-center">
-                        <div class="branding">
-                            <img class="logo" src="images/nik logo.png" alt="1">
-                        </div>
-                        <div class="task">
-                            <a href="#">Home</a>
-                            <a href="about.html">About</a>
-                            <a href="projects.html">Projects</a>
-                            <a href="contact.html">Contact Me</a>
-
-                        </div>
-                    </div>
-                </nav>
-                <div class="photo flex items-center justify-between">
-                    <div class="pleft  justify-center">
-                        <img class="ng" src="images/niknew.jpg" alt="">
-                    </div>
-
-                    <div class="pright ">
-
-                        <h3>Hello<br>I'm <span>Nitin Gupta</span></h3>
-
-                        <div>
-                            <a href="https://docs.google.com/document/d/1x7GZI8YVeZv4arMs-jVTgJlkOOOhNaItra2ILRvrKzg/edit" target="_blank"><button class="btn btn-secondary">Download CV</button></a>
-                        </div>
-
-                    </div>
+    <title>Information</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <img class="logo2" src="images/logo (1).jpg" />
+        <ul>
+          <li>
+            <a href="index.html" target="blank">Home</a>
+          </li>
+          <li>
+            <a href="about.html" target="blank">About</a>
+          </li>
+          <li>
+            <a href="projects.html" target="blank">Projects</a>
+          </li>
+          <li>
+            <a href="contact.html" target="blank">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+        <div id="body">
+                <div class="text">
+                  <h1>I'm Nitin Gupta</h1>
+                  <h1>A <span class="auto"></span></h1>
+                  <p id="para">I am Currently a Second Year Student at IIIT Bhopal.<br>Pursuing B.Tech Degree in Computer Science & Engineering.</p><br><br>
+                  <a  href="" target="blank"><button type="submit" class="cv1">Download CV</button></a>
                 </div>
-
-            </div>
-        </header>
-
-        <footer>
-            <div class="last">
-                <div class="connect">
-                    <h1>Connect</h1>
-                <a href="https://www.instagram.com/nitin_gupta_i20i/" target="blank"><img src="images/insta.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/nitin-gupta-b915a81ba" target="blank"><img src="images/linkedln.png" alt=""></a>
-                <a href="https://twitter.com/NitinGu13499448" target="blank"><img src="images/twitter.png" alt=""></a>
-                <a href="https://github.com/nitingupta-max" target="blank"><img src="images/github.png" alt=""></a>
-
+                <div class="nik_img">
+                  <img src="images/niknew.jpg" alt="nitin" class="user" />
                 </div>
-                <div class="college">
-                    <h1>Get in Touch</h1>
-                    <h4><img src="images/location.png" alt="">&nbsp IIIT Bhopal</h4><br>
-                    <h4><img src="images/phone.png" alt="">&nbsp +91 8979329258</h4><br>
-                    <h4><img src="images/gmail.png" alt="">&nbsp ng1098601@gmail.com</h4>
-                </div>
-            </div>
-        </footer>
-        
-    </div>
+        </div>
+    <footer>
+      <div class="last">
+          <div class="connect">
+              <h1>Connect</h1>
+          <a href="https://www.instagram.com/nitin_gupta_i20i/" target="blank"><img src="images/insta.png" alt=""></a>
+          <a href="https://www.linkedin.com/in/nitin-gupta-b915a81ba" target="blank"><img src="images/linkedln.png" alt=""></a>
+          <a href="https://twitter.com/NitinGu13499448" target="blank"><img src="images/twitter.png" alt=""></a>
+          <a href="https://github.com/nitingupta-max" target="blank"><img src="images/github.png" alt=""></a>
 
-
-
-</body>
-
+          </div>
+          <div class="college">
+              <h1>Get in Touch</h1>
+              <h4><img src="images/location.png" alt="">&nbsp IIIT Bhopal</h4><br>
+              <h4><img src="images/phone.png" alt="">&nbsp +91 8979329258</h4><br>
+              <h4><img src="images/gmail.png" alt="">&nbsp ng1098601@gmail.com</h4>
+          </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Web Developer", "ML Enthusiast"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
 </html>

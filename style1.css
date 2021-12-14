@@ -16,16 +16,16 @@
 }
 body{
     font-family: "Baloo Bhai 2";
-    background-color:#303041;
+    background-color:#000;
 }
 html{
     scroll-behavior: smooth;
 }
-header{
+/* header{
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%,68% 82%,0 100%);
-}
-header nav .left  a{
+} */
+/* header nav .left  a{
     color: var(--primary);
     text-decoration: none;
     padding: 10px;
@@ -33,20 +33,20 @@ header nav .left  a{
     transition: all 0.3s ease;
     font-size: 20px;
 
-}
-header nav .right{
+} */
+/* header nav .right{
     color: coral;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
-}
-.task{
+} */
+/* .task{
     padding-left: 37rem ;
     margin: 35px auto;
     width: 100%;
-}
+} */
 footer{
-    margin-top: 160px;
+    margin-top: 100px;
     background: #898989;
     width: 100%;
     height: 230px;
@@ -80,101 +80,7 @@ footer .last .college img{
     margin-top: 20px;
 }
 
-.logo{
-    padding-top:10px ;
-    padding-bottom:10px ;
-    height: 100px;
-    width: 100px;
-}
 
-header nav .left a:hover
-{
-    color: white;
-    text-decoration: underline;
-}
-.container{
-    max-width: 1152px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.photo .pleft img{
-    
-    width: 450px;
-    
-}
-.photo .pright{
-    color:var(--primary);
-}
-
-.photo{
-    padding: 5rem 0;
-}
-.branding img {
-    margin-top: 15px;
-    height: 80px;
-    width: 120px;
-    filter: invert(96%);
-  }
-.photo .pright h3{
-    margin-top: 50px;
-    font-size: 4rem;
-    font-weight: 100;
-    margin-bottom: 1rem;  
-}
-.photo .pright h3 span{
-    color: var(--primary);
-}
-.photo .pright p{
-    line-height:1.9rem;
-    margin-bottom:2rem;
-
-}
-
-.ng{
-    border-radius: 50%;
-    height: 500px;
-    width: 500px;
-}
-
-/* section .container-2{
-    display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
-    /* padding-left: 150px;
-    padding-right: 150px; */
-    /* grid-gap: 40px; */
-    /* padding: 100px; */
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%,80% 85%,0 100%); */
-    /* background: rgb(12, 11, 11); */
-/* } */
-
-
-.item1, .item2{
-            
-    text-align: center;
-    font-size: 20px;
-    color: var(--dark);
-    /* font-family: cursive; */
-    background:lightblue;
-    /* padding: 30px; */
-    /* border: 2px greenyellow solid; */
-    border-radius: 50%;
-    overflow: hidden;
-    
-   
-}
-.is{
-    border-radius: 50%;
-    height: 80%;
-    width: 80%;
-}
-.ms{
-    text-align: center;
-    padding-bottom: 40px;
-    font-size: 40px;
-}
 form{
     background: var(--dark);
     padding-top: 150px;
@@ -207,27 +113,7 @@ form h1,h3{
 .btn-1:hover{
     background: var(--primary);
 }
-section .container-2{
-    padding: 40px;
-    background-color: bisque;
-}
-section .container-3{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
-    padding: 60px;
-    grid-gap: 30px;
-    /* background: rgb(12, 11, 11); */
-    background-color: bisque;
-    clip-path: polygon(0 0, 100% 0, 100% 100%,80% 85%,0 100%);
-}
-.hobbies .is{
-    height: 200px;
-    width: 100%;
-    padding: 20px;
-    
 
-}
 
  @media (max-width:1120px){
      .task{

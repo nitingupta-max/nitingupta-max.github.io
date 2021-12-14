@@ -8,7 +8,7 @@ body{
     font-family: "Baloo Bhai 2";
 }
 .cont1{
-    color: #FFA800;
+    color: #fff;
     justify-content: center;
     text-align: center;
     font-size: 52px;
@@ -20,11 +20,10 @@ body{
     margin: 40px auto;
     color: aqua;
     text-align: center;
-    background:#3D3A50;
     width: 40%;
     border-radius: 24px;
-    box-shadow: 6px 6px 10px -1px #000,
-                -6px -6px 10px -1px #000
+    box-shadow: 6px 6px 10px -1px #fff,
+                -6px -6px 10px -1px #fff
 
 }
 button{
@@ -33,7 +32,8 @@ button{
     width: 70%;
     border: none;
     border-radius: 24px;
-    color: #3D3A50;
+    background-color:#63c9f8;
+    color: #000;
     font-size: 18px;
 }
 button:hover{
@@ -45,7 +45,7 @@ head{
 }
 @media (max-width:492px){
     .link{
-        width: 60%;
+        width: 82%;
     }
     button{
         width:15rem;
