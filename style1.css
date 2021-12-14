@@ -1,7 +1,7 @@
 @import 'utilities.css';
 :root{
-    --primary:#3DCFD3;
-    --dark:#161616;
+    --primary:#63c9f8;
+    --dark:#000;
     --pure:#FFFFFF;
     --ternary:#898989;
     --light:#F2F2F2;
@@ -16,16 +16,17 @@
 }
 body{
     font-family: "Baloo Bhai 2";
+    background-color:#303041;
 }
 html{
     scroll-behavior: smooth;
 }
 header{
     background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%,85% 85%,0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%,68% 82%,0 100%);
 }
 header nav .left  a{
-    color: coral;
+    color: var(--primary);
     text-decoration: none;
     padding: 10px;
     text-transform: uppercase;
@@ -40,7 +41,7 @@ header nav .right{
     font-size: 20px;
 }
 .task{
-    padding-left: 35rem ;
+    padding-left: 37rem ;
     margin: 35px auto;
     width: 100%;
 }
@@ -57,7 +58,12 @@ footer{
 footer .last .connect img{
     height: 40px;
     width: 40px;
+    border-radius: 50%;
     margin-top: 20px;
+}
+footer .last .connect img:hover{
+    background: #3DCFD3;
+    transform: scale(1.1);
 }
 footer .last .college img{
     height: 20px;
@@ -83,10 +89,10 @@ footer .last .college img{
 
 header nav .left a:hover
 {
-    color: var(--primary);
+    color: white;
+    text-decoration: underline;
 }
 .container{
-    
     max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
@@ -99,11 +105,10 @@ header nav .left a:hover
 }
 .photo .pright{
     color:var(--primary);
-
 }
 
 .photo{
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 .branding img {
     margin-top: 15px;
@@ -125,75 +130,25 @@ header nav .left a:hover
     margin-bottom:2rem;
 
 }
-section{
-    padding-top:4rem;
-}
-.i{
-    height: 50px;
-    width: 50px;
-    border:2px black solid;
-    border-radius: 8px;
-}
-.h{
-    color: black;
-    
-}
+
 .ng{
     border-radius: 50%;
     height: 500px;
     width: 500px;
 }
-.about-me{
-    padding-right: 150px;
-    height: 400px;
-    width: 500px;
-}
-section.about h1{
-    padding-top: 80px;
-    margin-bottom:1rem ;
-    font-size: 1.6rem;
-    font-weight: 400;
 
-}
-section.about h3{
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom:-2rem ;
-
-}
-section.about p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    line-height: 1.8;
-}
-section.about a .i:hover{
-    background:red;
-}
-.social{
-    margin-top: 50px;
-}
-#container-2{
-    height: 500px;
-    background: lightblue;
-}
-.intro{
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 20px;
-}
-
-section .container-2{
+/* section .container-2{
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
     /* padding-left: 150px;
     padding-right: 150px; */
-    grid-gap: 40px;
+    /* grid-gap: 40px; */
     /* padding: 100px; */
-    clip-path: polygon(0 0, 100% 0, 100% 100%,80% 85%,0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%,80% 85%,0 100%); */
     /* background: rgb(12, 11, 11); */
-}
+/* } */
 
 
 .item1, .item2{
@@ -274,162 +229,65 @@ section .container-3{
 
 }
 
- @media (max-width:1024px){
-     /* header #main-nav{
-         display: none;
-     } */
-     .photo .pleft img{
-         width: 260px;
+ @media (max-width:1120px){
+     .task{
+         padding-left: 21rem;
      }
-     .photo .pleft h3{
-         font-size: 3rem;
-     }
-     .photo{
-         padding-top: 10rem;
+     .logo{
+         margin-left:  90px;
      }
      header{
-         clip-path:polygon(0 0, 100% 0, 100% 100%, 38% 89%, 0 100%) ;
-     }
-     .about-me{
-        padding-right: 70px;
-        height: 350px;
-        width: 350px;
-     }
-     section .container-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* padding: 100px; */
-        clip-path: polygon(0 0,50% 9%, 100% 0, 100% 100%,50% 93%,0 100%);
-        /* background: rgb(12, 11, 11); */
+        background: var(--dark);
+        clip-path: polygon(0 0, 100% 0, 100% 100%,50% 95%,0 100%);
     }
-    section .container-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
-        padding: 60px;
-        grid-gap: 30px;
-        /* background: rgb(12, 11, 11); */
-        background-color: bisque;
-        clip-path: polygon(0 0,50% 9%, 100% 0, 100% 100%,50% 91%,0 100%);
+    .ng{
+        margin-left: 55px;
     }
-    .btn-1 {
-        font-size: 20px;
-        padding: 20px;
-        margin-left: 300px;
-        width: 30%;
-        cursor: pointer;
-    }
-    .branding img {
-        margin-top: 15px;
-        height: 80px;
-        width: 80px;
-        filter: invert(96%);
-    }
-    .task {
-        padding-top: 40px;
-    }
-    header nav .left a {
-        color: coral;
-        text-decoration: none;
-        padding: 10px;
-        text-transform: uppercase;
-        transition: all 0.3s ease;
-        font-size: 17px;
-    }
-    .btn {
-        padding: 0.8rem 3rem;
-        font-size: 17px;
-        font-weight: bold;
-        border: 2px solid transparent;
-        border-radius: 25px;
-        text-transform: uppercase;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-    .item1, .item2{
-        font-size: 14px;
-    }
-    .photo .pleft img {
-        width: 330px;
+    .pright{
+        margin-right: 55px;
     }
  }
- @media (max-width:576px){
+ @media (max-width:1024px){
      .photo{
-         flex-direction: column;
-         padding-top: 50px;
-
+         display: block;
+         margin-top: 0px;
+         padding: 7rem 0;
      }
-     header{
-         padding-bottom: 5rem;
-         clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 95%,0 100%) ;
-
+     .pright{
+         text-align: center;
+         justify-content: center;
+         margin-top: 0px;
+         width: 100%;
      }
-     .task{
-         display: flex;
-         flex-direction: column;
-         text-align: justify;
+     .ng{
+         margin-left: 0px;
+     }
+
+     
+}
+@media (max-width:980px){
+    .task{
+        padding-left: 0rem;
+    }
+    .logo{
+        margin-left: 56px;
+    }
+     
+}
+ @media (max-width:620px){
+     
+ }
+ @media (max-width:492px){
+     .last{
+         display: block;
+     }
+     .connect{
          padding-top: 20px;
      }
-     .branding img{
-         display: none;
-         
-     }
-     .about-me {
-         
-        padding-left: 36px;
-        padding-right: 0px;
-        height: 360px;
-        width: 350px;
-       
+    .college{
+        margin-left: 50px;
     }
-    .about-inner-wrap{
-        flex-direction: column;
-    }
-    #container-2 {
-        height: 850px;
-        background: lightblue;
-    }
-    .is {
-        border-radius: 12%;
-        height: 60%;
-        width: 100%;
-    }
-    .hobbies .is {
-        height: 100px;
-        width: 100%;
-        padding: 0px;
-    }
-    .is{
-        border-radius: 50%;
-    }
-    .btn-1 {
-        font-size: 20px;
-        padding: 11px;
-        margin-left: 135px;
-        width: 30%;
-        cursor: pointer;
-    }
-    .form-group input {
-        /* font-family: cursive; */
-        font-size: 18px;
-        text-align: center;
-        display: block;
-        width: 371px;
-        padding: 4px;
-        border: 2px solid black;
-        border-radius: 25px;
-        margin: 11px auto;
-    }
-    section .container-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); */
-        padding: 10px;
-        padding-top: 42px;
-        padding-bottom: 42px;
-        grid-gap: 30px;
-        /* background: rgb(12, 11, 11); */
-        background-color: bisque;
-        clip-path: polygon(0 0,50% 9%, 100% 0, 100% 100%,50% 91%,0 100%);
+    footer{
+        height: 400px;
     }
  }
