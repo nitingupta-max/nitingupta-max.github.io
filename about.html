@@ -13,10 +13,14 @@
     <title>About</title>
 </head>
 <body>
-    <!-- header -->
-    <header class="header">
-        <nav>
-            <img class="logo2" src="images/logo (1).jpg" />
+    <div class="site-main-wrapper">
+      <img src="images/logo (1).jpg" alt="" id="m-l">
+
+        <button class="hamberger">
+            <img id="ham"src="images/hamberger.png" alt="">
+          </button>
+          <div class="mobile-nav">
+            <button class="times"><img src="images/times.png" alt=""></button>
             <ul>
               <li>
                 <a href="index.html" target="blank">Home</a>
@@ -31,8 +35,30 @@
                 <a href="contact.html" target="blank">Contact Me</a>
               </li>
             </ul>
-          </nav>
-    </header>
+          </div>
+        <!-- header -->
+        <div class="header">
+            <nav id="main_nav">
+              <div id="img_logo">
+                <img class="logo2" src="images/logo (1).jpg" />
+              </div>
+              <div class="nav_links">
+                <ul>
+                  <li>
+                    <a href="index.html" target="blank">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html" target="blank">About</a>
+                  </li>
+                  <li>
+                    <a href="projects.html" target="blank">Projects</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" target="blank">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
 
     <!-- about me start -->
     <h1 class="ab">About Me</h1>
@@ -122,6 +148,9 @@
         </div>
     </footer>
     </nav>
+    </div>
+
+    <script src="app.js"></script>
     
 </body>
 </html>

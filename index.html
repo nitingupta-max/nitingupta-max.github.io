@@ -11,9 +11,13 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="header">
-      <nav>
-        <img class="logo2" src="images/logo (1).jpg" />
+    <div class="site-main-wrapper">
+      <img src="images/logo (1).jpg" alt="" id="m-l">
+      <button class="hamberger">
+        <img id="ham"src="images/hamberger.png" alt="">
+      </button>
+      <div class="mobile-nav">
+        <button class="times"><img src="images/times.png" alt=""></button>
         <ul>
           <li>
             <a href="index.html" target="blank">Home</a>
@@ -28,37 +32,62 @@
             <a href="contact.html" target="blank">Contact Me</a>
           </li>
         </ul>
-      </nav>
-        <div id="body">
-                <div class="text">
-                  <h1>I'm Nitin Gupta</h1>
-                  <h1>A <span class="auto"></span></h1>
-                  <p id="para">I am Currently a Second Year Student at IIIT Bhopal.<br>Pursuing B.Tech Degree in Computer Science & Engineering.</p><br><br>
-                  <a  href="" target="blank"><button type="submit" class="cv1">Download CV</button></a>
-                </div>
-                <div class="nik_img">
-                  <img src="images/niknew.jpg" alt="nitin" class="user" />
-                </div>
-        </div>
-    <footer>
-      <div class="last">
-          <div class="connect">
-              <h1>Connect</h1>
-          <a href="https://www.instagram.com/nitin_gupta_i20i/" target="blank"><img src="images/insta.png" alt=""></a>
-          <a href="https://www.linkedin.com/in/nitin-gupta-b915a81ba" target="blank"><img src="images/linkedln.png" alt=""></a>
-          <a href="https://twitter.com/NitinGu13499448" target="blank"><img src="images/twitter.png" alt=""></a>
-          <a href="https://github.com/nitingupta-max" target="blank"><img src="images/github.png" alt=""></a>
-
-          </div>
-          <div class="college">
-              <h1>Get in Touch</h1>
-              <h4><img src="images/location.png" alt="">&nbsp IIIT Bhopal</h4><br>
-              <h4><img src="images/phone.png" alt="">&nbsp +91 8979329258</h4><br>
-              <h4><img src="images/gmail.png" alt="">&nbsp ng1098601@gmail.com</h4>
-          </div>
       </div>
-  </footer>
+
+      <div class="header">
+        <nav id="main_nav">
+          <div id="img_logo">
+            <img class="logo2" src="images/logo (1).jpg" />
+          </div>
+          <div class="nav_links">
+            <ul>
+              <li>
+                <a href="index.html" target="blank">Home</a>
+              </li>
+              <li>
+                <a href="about.html" target="blank">About</a>
+              </li>
+              <li>
+                <a href="projects.html" target="blank">Projects</a>
+              </li>
+              <li>
+                <a href="contact.html" target="blank">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+          <div id="body">
+                  <div class="text">
+                    <h1>I'm Nitin Gupta</h1>
+                    <h1>A <span class="auto"></span></h1>
+                    <p id="para">I am Currently a Second Year Student at IIIT Bhopal. Pursuing B.Tech Degree in Computer Science & Engineering.</p><br>
+                    <a  href="" target="blank"><button type="submit" class="cv1">Download CV</button></a>
+                  </div>
+                  <div class="nik_img">
+                    <img src="images/niknew.jpg" alt="nitin" class="user" />
+                  </div>
+          </div>
+      <footer>
+        <div class="last">
+            <div class="connect">
+                <h1>Connect</h1>
+            <a href="https://www.instagram.com/nitin_gupta_i20i/" target="blank"><img src="images/insta.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/nitin-gupta-b915a81ba" target="blank"><img src="images/linkedln.png" alt=""></a>
+            <a href="https://twitter.com/NitinGu13499448" target="blank"><img src="images/twitter.png" alt=""></a>
+            <a href="https://github.com/nitingupta-max" target="blank"><img src="images/github.png" alt=""></a>
+  
+            </div>
+            <div class="college">
+                <h1>Get in Touch</h1>
+                <h4><img src="images/location.png" alt="">&nbsp IIIT Bhopal</h4><br>
+                <h4><img src="images/phone.png" alt="">&nbsp +91 8979329258</h4><br>
+                <h4><img src="images/gmail.png" alt="">&nbsp ng1098601@gmail.com</h4>
+            </div>
+        </div>
+    </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="app.js"></script>
     <script>
       var typed = new Typed(".auto", {
         strings: ["Web Developer", "ML Enthusiast"],

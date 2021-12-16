@@ -35,7 +35,7 @@ p{
     margin-top: 0px;
     margin-bottom: 10px
 }
-@media (max-width:420px){
+@media (max-width:440px){
     .projects1{
         grid-template-columns: auto;
     }
@@ -45,6 +45,11 @@ p{
     }
     #bt{
         margin-bottom: 0px;
+    }
+    .proj{
+        font-size: 48px;
+        margin-top: 30px;
+
     }
 
 }

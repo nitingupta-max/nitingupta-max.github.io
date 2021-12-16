@@ -117,7 +117,7 @@ h1{
 .dsa{
     width: 45%;
 }
-@media (max-width:420px){
+@media (max-width:440px){
     .skills{
         display: block;
         width: 100%;
@@ -136,8 +136,16 @@ h1{
         text-align: left;
         width: 90%;
     }
+    .skillsleft,.skillsright {
+        margin-top: 5px;
+        margin-left: 5%;
+        width: 90%;
+    }
     .para, p{
         font-size: 18px;
+    }
+    .para{
+        text-align: left;
     }
     .def{
         width: 90%;

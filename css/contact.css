@@ -26,7 +26,7 @@ body{
                 -6px -6px 10px -1px #fff
 
 }
-button{
+.link a button{
     margin-top: 20px;
     height: 3rem;
     width: 70%;
@@ -43,7 +43,7 @@ button:hover{
 head{
     background: var(--dark);
 }
-@media (max-width:420px){
+@media (max-width:440px){
     .link{
         width: 82%;
     }
