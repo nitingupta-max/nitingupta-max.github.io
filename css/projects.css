@@ -30,9 +30,14 @@ p{
     border-radius: 24px;
 }
 #bt{
-    width: 40%;
-    background: #f4fcfe;
-    margin-top: 0px;
+    background-color: #63c9f8;
+    padding: 2% 4%;
+    width: 50%;
+    border: none;
+    border-radius: 28px;
+    font-size: 17px;
+    /* margin-top: 0px; */
+    color: black;
     margin-bottom: 10px
 }
 @media (max-width:440px){
