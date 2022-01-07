@@ -115,55 +115,22 @@ form h1,h3{
 }
 
 
- @media (max-width:1120px){
+ /* @media (max-width:1120px){
      .task{
          padding-left: 21rem;
      }
      .logo{
          margin-left:  90px;
      }
-     header{
-        background: var(--dark);
-        clip-path: polygon(0 0, 100% 0, 100% 100%,50% 95%,0 100%);
-    }
+
     .ng{
         margin-left: 55px;
     }
     .pright{
         margin-right: 55px;
     }
- }
- @media (max-width:1024px){
-     .photo{
-         display: block;
-         margin-top: 0px;
-         padding: 7rem 0;
-     }
-     .pright{
-         text-align: center;
-         justify-content: center;
-         margin-top: 0px;
-         width: 100%;
-     }
-     .ng{
-         margin-left: 0px;
-     }
-     .text h1 {
-        font-size: 46px;
-        line-height: 69px;
-     }
+ } */
 
-    .header nav a, #para {
-        font-size: 1.3rem;
-    }
-    .user {
-        border-radius: 50%;
-        width: 37%;
-        position: absolute;
-        right: 9%;
-        bottom: 431px;
-    }
-}
 @media (max-width:980px){
     .task{
         padding-left: 0rem;
@@ -173,9 +140,9 @@ form h1,h3{
     }
      
 }
- @media (max-width:620px){
+ /* @media (max-width:620px){
      
- }
+ } */
  @media (max-width:440px){
      .last{
          display: block;
@@ -190,3 +157,4 @@ form h1,h3{
         height: 400px;
     }
  }
+

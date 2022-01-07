@@ -177,6 +177,37 @@ nav ul li a:hover{
     #body{
         display: block;
     }
+    
+        .photo{
+            display: block;
+            margin-top: 0px;
+            padding: 7rem 0;
+        }
+        .pright{
+            text-align: center;
+            justify-content: center;
+            margin-top: 0px;
+            width: 100%;
+        }
+        .ng{
+            margin-left: 0px;
+        }
+        .text h1 {
+           font-size: 46px;
+           line-height: 69px;
+        }
+    
+       .header nav a, #para {
+           font-size: 1.3rem;
+       }
+       .user {
+           border-radius: 50%;
+           width: 37%;
+           position: absolute;
+           right: 9%;
+           bottom: 431px;
+       }
+    
 }
 @media (min-width:1024px){
     #m-l{
