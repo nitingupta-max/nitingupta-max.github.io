@@ -148,8 +148,21 @@ form h1,h3{
      .ng{
          margin-left: 0px;
      }
+     .text h1 {
+        font-size: 46px;
+        line-height: 69px;
+     }
 
-     
+    .header nav a, #para {
+        font-size: 1.3rem;
+    }
+    .user {
+        border-radius: 50%;
+        width: 37%;
+        position: absolute;
+        right: 9%;
+        bottom: 431px;
+    }
 }
 @media (max-width:980px){
     .task{

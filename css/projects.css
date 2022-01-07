@@ -40,6 +40,12 @@ p{
     color: black;
     margin-bottom: 10px
 }
+
+@media (max-width:1024px){
+    .projects1{
+        grid-template-columns: auto auto;
+    }
+}
 @media (max-width:440px){
     .projects1{
         grid-template-columns: auto;
