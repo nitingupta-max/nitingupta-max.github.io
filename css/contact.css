@@ -1,56 +1,54 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color:#303041;
-    font-family: "Baloo Bhai 2";
+body {
+  background-color: #303041;
+  font-family: "Baloo Bhai 2";
 }
-.cont1{
-    color: #fff;
-    justify-content: center;
-    text-align: center;
-    font-size: 52px;
-    padding-top: 40px;
+.cont1 {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  justify-content: center;
+  text-align: center;
+  font-size: 52px;
+  padding-top: 40px;
 }
-.link{
-    justify-content: center;
-    padding: 40px 0px 40px 0px;
-    margin: 40px auto;
-    color: aqua;
-    text-align: center;
-    width: 40%;
-    border-radius: 24px;
-    box-shadow: 6px 6px 10px -1px #fff,
-                -6px -6px 10px -1px #fff
-
+.link {
+  justify-content: center;
+  padding: 40px 0px 40px 0px;
+  margin: 40px auto;
+  color: aqua;
+  text-align: center;
+  width: 40%;
+  border-radius: 24px;
+  box-shadow: 6px 6px 10px -1px #fff, -6px -6px 10px -1px #fff;
 }
-.link a button{
-    margin-top: 20px;
+.link a button {
+  margin-top: 20px;
+  height: 3rem;
+  width: 70%;
+  border: none;
+  border-radius: 24px;
+  background-color: #63c9f8;
+  color: #000;
+  font-size: 18px;
+}
+button:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+head {
+  background: var(--dark);
+}
+@media (max-width: 440px) {
+  .link {
+    width: 82%;
+  }
+  button {
+    width: 15rem;
     height: 3rem;
-    width: 70%;
-    border: none;
-    border-radius: 24px;
-    background-color:#63c9f8;
-    color: #000;
-    font-size: 18px;
-}
-button:hover{
-    transition: 1s;
-    transform: scale(1.2);
-}
-head{
-    background: var(--dark);
-}
-@media (max-width:440px){
-    .link{
-        width: 82%;
-    }
-    button{
-        width:15rem;
-        height: 3rem;
-
-
-    }
+  }
 }

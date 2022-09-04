@@ -1,160 +1,109 @@
-@import 'utilities.css';
-:root{
-    --primary:#63c9f8;
-    --dark:#000;
-    --pure:#FFFFFF;
-    --ternary:#898989;
-    --light:#F2F2F2;
-    --secondary:#070606;
-
+@import "utilities.css";
+:root {
+  --primary: #63c9f8;
+  --dark: #000;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+  --secondary: #070606;
 }
-*{
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
-    box-sizing:border-box ;
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: "Baloo Bhai 2";
-    background-color:#000;
+body {
+  font-family: "Baloo Bhai 2";
+  background-color: #000;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-/* header{
-    background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%,68% 82%,0 100%);
-} */
-/* header nav .left  a{
-    color: var(--primary);
-    text-decoration: none;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    font-size: 20px;
-
-} */
-/* header nav .right{
-    color: coral;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-} */
-/* .task{
-    padding-left: 37rem ;
-    margin: 35px auto;
-    width: 100%;
-} */
-footer{
-    margin-top: 100px;
-    background: #898989;
-    width: 100%;
-    height: 230px;
-    
+footer {
+  margin-top: 100px;
+  background: #898989;
+  width: 100%;
+  height: 230px;
 }
-.last{
-    display: flex;
+.last {
+  display: flex;
 }
-footer .last .connect img{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    margin-top: 20px;
+footer .last .connect img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
-footer .last .connect img:hover{
-    background: #3DCFD3;
-    transform: scale(1.1);
+footer .last .connect img:hover {
+  background: #3dcfd3;
+  transform: scale(1.1);
 }
-footer .last .college img{
-    height: 20px;
-    width: 20px;
-
+footer .last .college img {
+  height: 20px;
+  width: 20px;
 }
-.connect{
-    margin-left: 50px;
-    margin-top: 20px;
-    
+.connect {
+  margin-left: 50px;
+  margin-top: 20px;
 }
-.college{
-    margin-left: 100px;
-    margin-top: 20px;
+.college {
+  margin-left: 100px;
+  margin-top: 20px;
 }
 
-
-form{
-    background: var(--dark);
-    padding-top: 150px;
-    padding-bottom: 200px;
+form {
+  background: var(--dark);
+  padding-top: 150px;
+  padding-bottom: 200px;
 }
-.form-group input{
-    font-size: 18px;
-    text-align: center;
+.form-group input {
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  width: 700px;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 11px auto;
+}
+form h1,
+h3 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: var(--primary);
+}
+.btn-1 {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 300px;
+  width: 50%;
+  cursor: pointer;
+}
+.btn-1:hover {
+  background: var(--primary);
+}
+
+@media (max-width: 980px) {
+  .task {
+    padding-left: 0rem;
+  }
+  .logo {
+    margin-left: 56px;
+  }
+}
+@media (max-width: 440px) {
+  .last {
     display: block;
-    width: 700px;
-    padding: 4px;
-    border: 2px solid black;
-    border-radius: 25px;
-    margin: 11px auto;
-
+  }
+  .connect {
+    padding-top: 20px;
+  }
+  .college {
+    margin-left: 50px;
+  }
+  footer {
+    height: 400px;
+  }
 }
-form h1,h3{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: var(--primary);
-}
-.btn-1{
-    font-size: 20px;
-    padding: 5px;
-    margin-left: 300px;
-    width: 50%;
-    cursor: pointer;
-}
-.btn-1:hover{
-    background: var(--primary);
-}
-
-
- /* @media (max-width:1120px){
-     .task{
-         padding-left: 21rem;
-     }
-     .logo{
-         margin-left:  90px;
-     }
-
-    .ng{
-        margin-left: 55px;
-    }
-    .pright{
-        margin-right: 55px;
-    }
- } */
-
-@media (max-width:980px){
-    .task{
-        padding-left: 0rem;
-    }
-    .logo{
-        margin-left: 56px;
-    }
-     
-}
- /* @media (max-width:620px){
-     
- } */
- @media (max-width:440px){
-     .last{
-         display: block;
-     }
-     .connect{
-         padding-top: 20px;
-     }
-    .college{
-        margin-left: 50px;
-    }
-    footer{
-        height: 400px;
-    }
- }
-
