@@ -9,6 +9,7 @@ p {
   margin: 20px auto;
   display: grid;
   grid-template-columns: auto auto auto;
+  height:40vh
 }
 .proj {
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
